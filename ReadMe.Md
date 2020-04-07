@@ -10,3 +10,6 @@ You can install Python packages with
   pip3 install <package>
 They will install into the site-package directory
   /usr/local/lib/python3.7/site-packages
+  
+  
+  ****This project explain about services, config service,dependancies,object mapping,passing values in python**
