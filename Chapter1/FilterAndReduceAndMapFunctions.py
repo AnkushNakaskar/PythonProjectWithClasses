@@ -26,3 +26,5 @@ if __name__ == '__main__':
 
     object_dict1 = dict(map(lambda x : [x.id,x] ,object_list1))
     print(object_dict1)
+    # Below print statement explain about how we can do manipulation of list using generator pattern. we can define the function to process if you want to process list , We can add finter ,map etc to list
+    print(([(x.id,x) for x in object_list1]))
