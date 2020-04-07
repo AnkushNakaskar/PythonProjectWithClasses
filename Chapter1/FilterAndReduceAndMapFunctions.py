@@ -20,3 +20,9 @@ if __name__ == '__main__':
     object_list =[ SampleClass(1,2),SampleClass(1,3),SampleClass(2,4)]
     object_dict = dict((x.id, x) for x in object_list)
     print(object_dict)
+
+
+    object_list1 =[ SampleClass(1,2),SampleClass(1,3),SampleClass(2,4)]
+
+    object_dict1 = dict(map(lambda x : [x.id,x] ,object_list1))
+    print(object_dict1)
